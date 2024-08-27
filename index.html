@@ -6,55 +6,89 @@
     <title>Mohib Ahmadzai - Full-Stack Software Developer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #f4f4f4;
+            background-color: #f5f7fa;
         }
         header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 1rem;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 2rem;
             text-align: center;
+            border-bottom: 4px solid #3498db;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1200px;
             margin: auto;
-            overflow: hidden;
         }
         section {
             padding: 2rem 0;
         }
-        h2 {
-            color: #007bff;
-        }
         .card {
             background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            padding: 1rem;
-            margin-bottom: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        .projects ul, .skills ul {
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 0;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        ul {
             list-style-type: none;
             padding: 0;
         }
-        .projects li, .skills li {
+        li {
             padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        .skills ul, .certifications ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li, .certifications li {
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            font-size: 0.9rem;
+        }
+        .contact p {
+            margin: 0.5rem 0;
         }
         footer {
             text-align: center;
             padding: 1rem;
-            background-color: #007bff;
-            color: #fff;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            border-top: 4px solid #3498db;
         }
         a {
-            color: #007bff;
+            color: #3498db;
             text-decoration: none;
+            transition: color 0.3s;
         }
         a:hover {
-            text-decoration: underline;
+            color: #2980b9;
         }
     </style>
 </head>
